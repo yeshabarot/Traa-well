@@ -7,13 +7,13 @@ Key Features:
 
 User Authentication: Safely log in to access personalized features and tailor your travel preferences to suit your unique interests and desires.
 
-Tour Discovery: Embark on a journey of discovery with Wanderlust's curated selection of tour groups and experiences. From breathtaking hikes and cultural excursions to thrilling adventure sports and culinary delights, Wanderlust offers something for every type of traveler.
+Tour Discovery: Embark on a journey of discovery with Traa-well's curated selection of tour groups and experiences. From breathtaking hikes and cultural excursions to thrilling adventure sports and culinary delights, Wanderlust offers something for every type of traveler.
 
 Tour Guide Profiles: Connect with experienced tour guides from around the globe and gain insights into their expertise, passion, and personality. Explore detailed profiles showcasing their background, specialties, and reviews from previous travelers, empowering you to make informed decisions when selecting your guide.
 
 Interactive Tour Listings: Immerse yourself in a visual feast of tour listings akin to Instagram posts, where tour guides showcase their upcoming excursions with captivating images and enticing descriptions. Browse through a diverse range of tours and bookmark your favorites for future reference.
 
-Seamless Booking: Effortlessly book your desired tours directly through the app, with secure payment options and instant confirmation. Say goodbye to the hassle of traditional booking methods and embrace the convenience of Wanderlust's streamlined booking process.
+Seamless Booking: Effortlessly book your desired tours directly through the app, with secure payment options and instant confirmation. Say goodbye to the hassle of traditional booking methods and embrace the convenience of Traa-well's streamlined booking process.
 
 Community Engagement: Engage with fellow travelers and share your experiences, tips, and recommendations through Wanderlust's vibrant community platform. Connect with like-minded individuals, seek advice, and forge lasting friendships as you embark on your travel adventures together.
 
