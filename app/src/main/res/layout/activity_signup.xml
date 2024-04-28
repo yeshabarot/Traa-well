@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="414dp"
+    android:layout_height="896dp"
+    tools:context=".signup_page"
+    android:background="@drawable/login_bg">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal|top"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/signup_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/traveee"
+        android:textAppearance="@style/appname"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/signup_travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/travel"
+        android:textAppearance="@style/travel"
+        android:gravity="center_horizontal|top"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/signup_name"
+            android:layout_width="48.71dp"
+            android:layout_height="27.09dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="213dp"
+            android:gravity="top"
+            android:text="@string/name"
+            android:textAppearance="@style/name" />
+
+        <EditText
+            android:id="@+id/signup_name2"
+            android:layout_width="323dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/signup_name"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/login_box"
+            android:ems="10"
+            android:hint="    Name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/signup_email"
+            android:layout_width="48.71dp"
+            android:layout_height="27.09dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="305dp"
+            android:gravity="top"
+            android:text="@string/email"
+            android:textAppearance="@style/email" />
+
+        <EditText
+            android:id="@+id/signup_email2"
+            android:layout_width="323dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/signup_email"
+            android:layout_marginStart="40dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/login_box"
+            android:ems="10"
+            android:hint="   email"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/signup_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="27.09dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="399dp"
+            android:gravity="top"
+            android:text="@string/password"
+            android:textAppearance="@style/password"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/signup_pass2"
+            android:layout_width="323dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/signup_pass"
+            android:layout_marginStart="40dp"
+            android:autofillHints="password"
+            android:background="@drawable/login_box"
+            android:ems="10"
+            android:hint="   password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/signup_confirm_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="27.09dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="495dp"
+            android:gravity="top"
+            android:text="@string/confirm_pas"
+            android:textAppearance="@style/confirm_pas" />
+
+        <EditText
+            android:id="@+id/signup_confirm_pass2"
+            android:layout_width="323dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/signup_confirm_pass"
+            android:layout_marginStart="40dp"
+            android:autofillHints="password"
+            android:background="@drawable/login_box"
+            android:ems="10"
+            android:hint="   password"
+            android:inputType="textPassword" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/signup_login"
+        android:layout_width="203dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="635dp"
+        android:background="@drawable/signup_login"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up" />
+
+    <Button
+        android:id="@+id/signup_already"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="702dp"
+        android:background="#00235421"
+        android:text="@string/already_hav" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/signup_forgot"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_marginStart="153dp"-->
+<!--        android:layout_marginTop="731dp"-->
+<!--        android:gravity="center"-->
+<!--        android:lineSpacingExtra="4sp"-->
+<!--        android:text="@string/forgot_pass"-->
+<!--        android:textAppearance="@style/forgot_pass"-->
+<!--        android:translationY="-1.95sp" />-->
+
+</RelativeLayout>

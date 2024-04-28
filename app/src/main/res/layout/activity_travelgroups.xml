@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TravelgroupsActivity"
+    android:background="#4DA1C9CD">
+
+
+        <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="420dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:background="#A1C9CD">
+    </View>
+
+
+
+    <TextView
+        android:id="@+id/travelg"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:gravity="top"
+        android:text="@string/travelg"
+        android:textAppearance="@style/travel_g"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+        android:id="@+id/tg_box1"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/tg_box"
+        android:onClick="openNew"
+        app:cardElevation="11dp"
+        app:cardCornerRadius="17dp">
+            <ImageButton
+                android:id="@+id/tg_btn1"
+                style="@style/roundimageview"
+                android:layout_width="150dp"
+                android:layout_height="133dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/tg_btn1" />
+            <TextView
+                android:id="@+id/travel_trib"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="153dp"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:text="@string/travel_trib"
+                android:textAppearance="@style/travel_trib"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/packages_1"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginStart="153dp"
+                android:layout_marginTop="30dp"
+                android:gravity="top"
+                android:text="@string/packages_1"
+                android:textAppearance="@style/packages_1"
+                tools:ignore="TextSizeCheck">
+            </TextView>
+            <TextView
+                android:id="@+id/regions_cov"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginStart="153dp"
+                android:layout_marginTop="50dp"
+                android:gravity="top"
+                android:text="@string/regions_1"
+                android:textAppearance="@style/regions_1"
+                tools:ignore="TextSizeCheck">
+            </TextView>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tg_box2"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tg_box"
+        android:onClick="openNew"
+        app:cardElevation="11dp"
+        app:cardCornerRadius="17dp">
+        <ImageButton
+            android:id="@+id/tg_btn2"
+            style="@style/roundimageview"
+            android:layout_width="150dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/todo1"
+            android:src="@drawable/tg_btn2" />
+        <TextView
+            android:id="@+id/jugni"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="@string/jugni"
+            android:textAppearance="@style/jugni"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/packages_2"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:text="@string/packages_2"
+            android:textAppearance="@style/packages_2"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/regions_2"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="50dp"
+            android:gravity="top"
+            android:text="@string/regions_2"
+            android:textAppearance="@style/regions_2"
+            tools:ignore="TextSizeCheck" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/tg_box3"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tg_box"
+        android:onClick="openNew"
+        app:cardElevation="11dp"
+        app:cardCornerRadius="17dp">
+
+        <ImageButton
+            android:id="@+id/tg_btn3"
+            style="@style/roundimageview"
+            android:layout_width="150dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/todo2"
+            android:src="@drawable/tg_btn3" />
+        <TextView
+            android:id="@+id/wandering"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="@string/wandering_j"
+            android:textAppearance="@style/wandering_j"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/packages_3"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:text="@string/packages_3"
+            android:textAppearance="@style/packages_3"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/regions_3"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="50dp"
+            android:gravity="top"
+            android:text="@string/regions_3"
+            android:textAppearance="@style/regions_3"
+            tools:ignore="TextSizeCheck" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/tg_box4"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tg_box"
+        android:onClick="openNew"
+        app:cardElevation="11dp"
+        app:cardCornerRadius="17dp">
+        <ImageButton
+            android:id="@+id/tg_btn4"
+            style="@style/roundimageview"
+            android:layout_width="150dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/todo3"
+            android:src="@drawable/tg_btn4" />
+
+        <TextView
+            android:id="@+id/wowclub"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="@string/wow_club_wo"
+            android:textAppearance="@style/wow_club_wo"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/packages_4"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="45dp"
+            android:gravity="top"
+            android:text="@string/packages_4"
+            android:textAppearance="@style/packages_4"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/regions_4"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="65dp"
+            android:gravity="top"
+            android:text="@string/regions_4"
+            android:textAppearance="@style/regions_4"
+            tools:ignore="TextSizeCheck" />
+    </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

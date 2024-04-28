@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="500dp"
+    android:layout_height="896dp"
+    tools:context=".profile"
+    android:background="@drawable/profile_bg">
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="55dp"
+        android:gravity="top"
+        android:text="@string/profile"
+        android:textAppearance="@style/profile"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/profile_person"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="174dp"
+        android:background="@drawable/profile_person"
+        />
+
+    <TextView
+        android:id="@+id/yesha_barot"
+        android:layout_width="91dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="281dp"
+        android:text="@string/yesha_barot"
+        android:textAppearance="@style/yesha_barot"
+        android:gravity="top"
+        />
+
+    <RelativeLayout
+        android:id="@+id/profile_inputemail"
+        android:layout_width="326dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/profile_inputemail"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/profile_email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="13dp"
+            android:gravity="top"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/profile_email1"
+            android:textAppearance="@style/profile_email1"
+            android:textColor="#FFFFFFFF"
+            android:translationY="-2.37sp" />
+
+        <TextView
+            android:id="@+id/profile_email2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/profile_email2"
+            android:textAppearance="@style/profile_email2"
+            android:textColor="#FFFFFFFF"
+            android:translationY="-1.82sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_inputpass"
+        android:layout_width="326dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/profile_inputpass"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/profile_pass1"
+            android:layout_width="242dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="13dp"
+            android:gravity="top"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/profile_pass1"
+            android:textAppearance="@style/profile_pass1"
+            android:textColor="#FFFFFFFF"
+            android:translationY="-2.37sp"/>
+
+        <TextView
+            android:id="@+id/profile_pass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/profile_pass2"
+            android:textAppearance="@style/profile_pass2"
+            android:textColor="#FFFFFFFF"
+            android:translationY="-1.82sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_inputname"
+        android:layout_width="326dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/profile_inputname"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/profile_name1"
+            android:layout_width="242dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="13dp"
+            android:gravity="top"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/profile_name1"
+            android:textAppearance="@style/profile_name1"
+            android:textColor="#FFFFFFFF"
+            android:translationY="-2.37sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/profile_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/profile_name2"
+            android:textAppearance="@style/profile_name2"
+            android:textColor="#424242"
+            android:translationY="-1.82sp"></TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/profile_lastname"
+        android:layout_width="326dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="575dp"
+        android:background="@drawable/profile_lastname"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/profile_lastname1"
+            android:layout_width="242dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="13dp"
+            android:gravity="top"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/profile_lastname1"
+            android:textAppearance="@style/profile_lastname1"
+            android:textColor="#FFFFFFFF"
+            android:translationY="-2.37sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/profile_lastname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/profile_lastname2"
+            android:textAppearance="@style/profile_lastname2"
+            android:textColor="#455A64"
+            android:translationY="-1.82sp"></TextView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MAD_APP" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MAD_APP" parent="Base.Theme.MAD_APP" />
+///
+    <style name="Base.Theme.NavigationBottom" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+
+    </style>
+    <style name="ThemeOverlay.AppCompat.navTheme" parent="Base.Theme.NavigationBottom">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+///
+</resources>

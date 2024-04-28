@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PackagesActivity">
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="420dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:background="#A1C9CD">
+    </View>
+<!--APP WITH LOGO-->
+    <Button
+        android:id="@+id/p_backbtn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/home_clist"
+        android:contentDescription="@string/exback"
+        android:textColor="#424242" />
+
+    <View
+        android:id="@+id/backbtnp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back" />
+
+    <LinearLayout
+        android:id="@+id/ex_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="10dp">
+
+        <Button
+            android:id="@+id/kn3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:background="#00000000"
+            android:textColor="#636363"
+            android:text="@string/kn3" />
+
+        <Button
+            android:id="@+id/ex3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:background="#00000000"
+            android:text="@string/ex3"
+            android:textColor="#636363"
+            android:textStyle="italic" />
+        <Button
+            android:id="@+id/pa3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:background="#00000000"
+            android:text="@string/pa3"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp">
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/ladakh4"
+            app:shapeAppearanceOverlay="@style/curved_rec">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="Ladakh with Turtuk"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="180dp"
+                android:text="Leh-Ladakh"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/spiti"
+            app:shapeAppearanceOverlay="@style/curved_rec">
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="Spiti Valley"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="180dp"
+                android:text="Himachal Pradesh"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/days"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="Rs. 20,499.00"
+            android:textColor="@color/black"
+            android:textAppearance="@style/ex_days"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/locate" />
+        <TextView
+            android:id="@+id/dayss"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="33dp"
+            android:text="Leh Ladakh"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="18dp"
+            android:background="#3EA9B6"
+            android:text="@string/Explore"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="195dp">
+            <TextView
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/days2"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:text="Rs. 18,999.00"
+                android:textColor="@color/black"
+                android:textAppearance="@style/ex_days"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/locate" />
+            <TextView
+                android:id="@+id/dayss2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="33dp"
+                android:text="Himachal"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="italic"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="70dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="18dp"
+                android:background="#3EA9B6"
+                android:text="@string/Explore"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp">
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/tarkali"
+            app:shapeAppearanceOverlay="@style/curved_rec">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="Malvan Tarkarli"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="180dp"
+                android:text="Tarkarli Beach"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/sri2"
+            app:shapeAppearanceOverlay="@style/curved_rec">
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="160dp"
+                android:text="SriNagar"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="180dp"
+                android:text="Gulmarg"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/days3"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:text="Rs. 8,499.00"
+                android:textColor="@color/black"
+                android:textAppearance="@style/ex_days"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/locate" />
+            <TextView
+                android:id="@+id/dayss3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="33dp"
+                android:text="Gokarna"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="italic"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="70dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="18dp"
+                android:background="#3EA9B6"
+                android:text="@string/Explore"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="195dp">
+            <TextView
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/days4"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:text="Rs. 27,999.00"
+                android:textColor="@color/black"
+                android:textAppearance="@style/ex_days"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/locate" />
+            <TextView
+                android:id="@+id/dayss4"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="33dp"
+                android:text="Jammu-Kashmir"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="italic"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="70dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="18dp"
+                android:background="#3EA9B6"
+                android:text="@string/Explore"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn5"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginStart="110dp"-->
+<!--        android:layout_marginTop="620dp"-->
+<!--        android:background="#3EA9B6"-->
+<!--        android:text="@string/Explorem"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="25sp" />-->
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="homePage"
+    android:background="#4DA1C9CD"
+    android:focusableInTouchMode="true"
+    android:id="@+id/rel_layout">
+
+    <SearchView
+        android:id="@+id/srch"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_where"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+
+        android:layout_marginBottom="169dp"
+        android:background="@drawable/home_search"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Place"
+        android:textColor="#636363"
+        android:focusable="false"/>
+
+    <ListView
+        android:id="@+id/lstView"
+        android:background="@drawable/home_listview"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone">
+    </ListView>
+
+
+    <TextView
+        android:id="@+id/home_HiYesha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="43dp"
+        android:gravity="top"
+        android:text="@string/hii_yesha_"
+        android:textSize="20dp"
+        android:textAppearance="@style/hii_yesha_"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/home_where"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_HiYesha"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="3dp"
+        android:gravity="top"
+        android:text="@string/where_do_yo"
+        android:textSize="25dp"
+        android:textAppearance="@style/where_do_yo"
+        tools:ignore="TextSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/home_categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_where"
+        android:layout_marginStart="24dp"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:gravity="top"
+        android:text="@string/categories"
+        android:textAppearance="@style/categories"
+        tools:ignore="TextSizeCheck" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_categories"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="VisualLintBounds"
+            android:paddingRight="20sp">
+
+            <Button
+                android:id="@+id/home_sea"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/home_clist"
+                android:text="@string/sea"
+                android:textColor="#424242" />
+
+            <Button
+                android:id="@+id/home_mount"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/home_clist"
+                android:text="@string/mountain"
+                android:textColor="#424242" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/home_clist"
+                android:src="@drawable/home_forest"
+                android:text="@string/forest"
+                android:textColor="#424242"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </Button>
+
+            <Button
+                android:id="@+id/home_valley"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/home_clist"
+                android:text="@string/valley"
+                android:textColor="#424242">
+            </Button>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_categories"
+        android:layout_marginTop="71dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/hot_places"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:gravity="center"
+                android:text="@string/hot_places"
+                android:textAppearance="@style/hot_places"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+            <HorizontalScrollView
+                android:id="@+id/home_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hot_places"
+                android:layout_marginTop="20dp"
+                android:isScrollContainer="true"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="25dp"
+                        android:background="@drawable/landscape2"
+                        app:shapeAppearanceOverlay="@style/curved_rec">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Alappuzha"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="180dp"
+                            android:text="City in Kerela"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="10sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="25dp"
+                        android:background="@drawable/landscape1"
+                        app:shapeAppearanceOverlay="@style/curved_rec">
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Munnar"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="180dp"
+                            android:text="Town in Western Ghats"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="10sp"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="25dp"
+                        android:background="@drawable/tg_img2"
+                        app:shapeAppearanceOverlay="@style/curved_rec">
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Goa"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="180dp"
+                            android:text="State in Western India"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="10sp"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="25dp"
+                        android:background="@drawable/landscape3"
+                        app:shapeAppearanceOverlay="@style/curved_rec">
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Valley of Flowers"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="180dp"
+                            android:text="Uttarakhand"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="10sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="25dp"
+                        android:background="@drawable/landscape4"
+                        app:shapeAppearanceOverlay="@style/curved_rec">
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="160dp"
+                            android:text="Taj Mahal"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="180dp"
+                            android:text="Agra"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="10sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/travel_grou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_heading"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:text="@string/travel_grou"
+                android:textAppearance="@style/travel_grou"
+                android:textSize="25sp" />
+
+
+            <LinearLayout
+                android:id="@+id/home_TG"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@+id/home_heading"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/TGr"
+                    android:layout_width="170dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="25dp"
+                    android:background="@drawable/travel_grp"
+                    android:contentDescription="@string/tr" />
+
+                <ImageButton
+                    android:id="@+id/TGs"
+                    android:layout_width="170dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="25dp"
+                    android:background="@drawable/tour_guides"
+                    android:contentDescription="@string/tg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/home_TG"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="@string/travel_groups"
+                    android:textAppearance="@style/home_text_tg"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="@string/tour_guides"
+                    android:textAppearance="@style/home_text_tg"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#00A1C9CD"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name"></string>
+
+    <!-- Home page-->
+    <string name="hii_yesha_">Hii Yesha, </string>
+    <string name="where_do_yo">Where do you want to go?</string>
+    <string name="categories">Categories</string>
+    <string name="hot_places">Hot Places</string>
+    <string name="travel_grou">Travel Groups and more..</string>
+    <string name="home_text_tg">Travel Groups</string>
+    <string name="mountain">mountain</string>
+    <string name="forest">forest</string>
+    <string name="valley">valley</string>
+    <string name="travel_groups">Travel Groups</string>
+    <string name="tour_guides">Tour Guides</string>
+    <string name="sea">sea</string>
+    <string name="travelg">Travel Groups</string>
+
+    <!-- Signup page-->
+    <string name="traveee">Traa-well</string>
+    <string name="travel">Travel and exploration App</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="Name">Name</string>
+    <string name="password">Password\n</string>
+    <string name="confirm_pas">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_hav">Already have an account, Login</string>
+    <string name="forgot_pass">Forgot Password?</string>
+
+    <!-- profile page-->
+    <string name="profile">Profile</string>
+    <string name="yesha_barot">Yesha Barot</string>
+    <string name="profile_email1">Email</string>
+    <string name="profile_email2">Account@gmail.com</string>
+    <string name="profile_pass1">Password</string>
+    <string name="profile_pass2">password</string>
+    <string name="profile_name1">First Name</string>
+    <string name="profile_name2">first name</string>
+    <string name="profile_lastname1">Last Name</string>
+    <string name="profile_lastname2">last name</string>
+
+    <!-- travel groups page-->
+    <string name="travel_trib">Travel Tribes</string>
+    <string name="jugni">Jugni</string>
+    <string name="wandering_j">Wandering Jane</string>
+    <string name="wow_club_wo">Wow Club - Women on Wanderlust</string>
+    <string name="packages_1">Packages Starting at: INR 7000</string>
+    <string name="regions_1">Regions Covered: Goa, Spiti Valley, and more...</string>
+    <string name="packages_2">Packages Starting at: INR 14600</string>
+    <string name="regions_2">Regions Covered: Himachal Pradesh, Meghalaya, Leh-Ladakh, and more...</string>
+    <string name="packages_3">Packages Starting at: INR 25000</string>
+    <string name="regions_3">Regions Covered: Goa, Kerala, Meghalaya and more...</string>
+    <string name="packages_4">Packages Starting at: INR 25000</string>
+    <string name="regions_4">Regions Covered: Sikkim, Kashmir, and more...</string>
+
+    <!-- TRAVEL TRIBES PAGE-->
+    <string name="travel_tibe">Travel Tibes</string>
+    <string name="show_more_">Show more...</string>
+    <string name="know_more">Know more</string>
+    <string name="experiences">Experiences</string>
+    <string name="packages">Packages</string>
+
+    <!-- know more page-->
+    <string name="kn_name">Travel Tribes</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">todo1</string>
+    <string name="todo2">todo2</string>
+    <string name="todo3">todo3\n</string>
+    <string name="kn"><u>Know more</u></string>
+    <string name="ex">Experiences</string>
+    <string name="pa">Packages</string>
+    <string name="kn_1">“India is the cradle of human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition. Our most valuable and most constructive materials in the history of man are treasured up in India only.” - Mark Twain.</string>
+    <string name="kn_2">A budding travel enthusiast and professional Mr. Ankush(Nick) started a travel company by the name ‘The Travel Tribe’ in the year 2014. The company specialises in consultation, accommodation, transport reservations and other allied services all over Indian sub-continent. We are a specialist in organising adventurous tours and trekking in Himalayas. We also specialise in organising road trips all over Northern India covering states like Himachal Pradesh, Uttaranchal, Rajasthan and Jammu and Kashmir. Our prime motto is to provide you a hassle free journey in the most comprehensive and economic way. The company offers some of the best services in the industry</string>
+    <string name="kn_3">The Travel Tribe holds the knowledge and expertise to handle all details of your group trip including transportation, brand named hotels, meals, sightseeing, educational events, tour guides, security guards, photography shoots and fun activities. We realise the value of time of our travellers and make sure to customise in a way that you get to see more in lesser time duration.</string>
+    <string name="kn_4">You can be rest assured that you have come to the right place when you reach ‘The Travel Tribe’ for your memorable holiday trip.\n \n </string>
+
+    <!-- experiences page-->
+    <string name="kn2">Know more</string>
+    <string name="ex2"><u>Experiences</u></string>
+    <string name="pa2">Packages</string>
+    <string name="ex_l1">Trip to Ladakh with Turtuk</string>
+    <string name="ex_days">8 days </string>
+    <string name="ex_month">September 2022 </string>
+    <string name="ex_ppl">20 ppl </string>
+    <string name="ex_note1">Ladakh is a Himalayan paradise where dreams come true, the mountains meet the horizon, and the Indus River dances to the sounds of a thriving civilisation.
+    </string>
+    <string name="ex_days2">5 days </string>
+    <string name="ex_month2">June 2023 </string>
+    <string name="ex_ppl3">14 ppl </string>
+    <string name="ex_note2">
+    A coastal town in Karnataka, Uttara Kannada district is called Gokarna. Gokarna was a tranquil escape, where pristine beaches, serene temples, and the laid-back vibe created a perfect recipe for relaxation and rejuvenation.
+    </string>
+    <string name="exback">exback</string>
+
+    <!-- packages page-->
+    <string name="kn3">Know more</string>
+    <string name="ex3">Experiences</string>
+    <string name="pa3"><u>Packages</u></string>
+
+
+    <!-- jugni page-->
+    <string name="jugni_name">Jugni</string>
+    <string name="j_show_more_">Show more...</string>
+    <string name="j_know_more">Know more</string>
+    <string name="j_experiences">Experiences</string>
+    <string name="j_packages">Packages</string>
+    <string name="j_1">1</string>
+    <string name="j_2">2</string>
+    <string name="j_3">3</string>
+    <string name="tr">TR</string>
+    <string name="tg">TG</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Navigation -->
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="todo4">todo4\n</string>
+    <string name="todo5">todo5\n</string>
+    <string name="todo6">todo6</string>
+
+    <!-- home page_ tour guides -->
+    <string name="tour_gu">Tour Guides</string>
+    <string name="popular_ind">Popular India Destinations</string>
+    <string name="delhi">Delhi</string>
+    <string name="Agra">Agra</string>
+    <string name="Jaipur">Jaipur</string>
+    <string name="Rishikesh">Rishikesh</string>
+    <string name="Goa">Goa</string>
+    <string name="other">Other \n Destination</string>
+    <string name="shawn_jones">Shawn Jones</string>
+    <string name="northern_re">Northern Region - Taj Mahal</string>
+    <string name="Explore">Explore</string>
+    <string name="Explorem">Explore more</string>
+
+
+</resources>

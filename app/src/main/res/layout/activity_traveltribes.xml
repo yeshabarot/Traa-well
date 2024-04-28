@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tt_background"
+    android:contentDescription="3"
+    tools:context=".TraveltribesActivity">
+<!--    <View-->
+<!--        android:id="@+id/rectangle_1"-->
+<!--        android:layout_width="420dp"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:background="#A1C9CD">-->
+<!--    </View>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/tt_backbtn"-->
+<!--        style="?android:attr/buttonBarButtonStyle"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:background="@drawable/home_clist"-->
+<!--        android:contentDescription="@string/exback"-->
+<!--        android:textColor="#424242" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/backbtntt"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@drawable/back" />-->
+
+
+
+
+    <View
+        android:id="@+id/tt_boxname"
+        android:layout_width="292dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/tt_name" />
+
+    <TextView
+        android:id="@+id/tt_name1"
+        android:layout_width="150.55dp"
+        android:layout_height="18.8dp"
+        android:layout_marginStart="48.18dp"
+        android:layout_marginTop="100dp"
+        android:gravity="top"
+        android:text="@string/travel_tibe"
+        android:textAppearance="@style/travel_tibe"
+        android:textStyle="bold" />
+
+
+    <View
+        android:id="@+id/tt_arrow2"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tt_name1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="347dp"
+        android:layout_marginBottom="323dp"
+        android:background="@drawable/tt_arrow2" />
+
+    <View
+        android:id="@+id/tt_arrow"
+        android:layout_width="381dp"
+        android:layout_height="378dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="138dp"
+        android:background="@drawable/tt_arrow" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="525dp"
+        android:background="@drawable/tt_box"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/show_more_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/show_more_"
+            android:textAppearance="@style/show_more_"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/tt_box1"
+                style="@style/roundimageview"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="1"
+                android:src="@drawable/tt_img77" />
+
+            <ImageButton
+                android:id="@+id/tt_box2"
+                style="@style/roundimageview"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="2"
+                android:src="@drawable/tt_img78" />
+
+            <ImageButton
+                android:id="@+id/tt_box3"
+                style="@style/roundimageview"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="3"
+                android:src="@drawable/tt_img79" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/know_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="top"
+                android:text="@string/know_more"
+                android:textAppearance="@style/know_more"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/experiences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:gravity="top"
+                android:text="@string/experiences"
+                android:textAppearance="@style/experiences"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/packages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:gravity="top"
+                android:text="@string/packages"
+                android:textAppearance="@style/packages"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--        <View-->
+    <!--        android:id="@+id/rectangle_5"-->
+    <!--        android:layout_width="385dp"-->
+    <!--        android:layout_height="190dp"-->
+    <!--        android:layout_marginStart="17dp"-->
+    <!--        android:layout_marginTop="597dp"-->
+    <!--        android:background="@drawable/tt_box"-->
+    <!--        android:elevation="4dp">-->
+    <!--        </View>-->
+
+
+</RelativeLayout>

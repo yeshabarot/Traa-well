@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KnowmoreActivity">
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="420dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:background="#A1C9CD">
+    </View>
+
+    <Button
+        android:id="@+id/kn_backbtn"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/home_clist"
+        android:contentDescription="@string/exback"
+        android:textColor="#424242" />
+
+    <View
+        android:id="@+id/backbtnk"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back" />
+
+    <LinearLayout
+        android:id="@+id/kn_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="10dp">
+
+        <Button
+            android:id="@+id/kn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:background="#00000000"
+            android:text="@string/kn" />
+
+        <Button
+            android:id="@+id/ex"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:background="#00000000"
+            android:text="@string/ex"
+            android:textColor="#636363"
+            android:textStyle="italic" />
+        <Button
+            android:id="@+id/pa"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:background="#00000000"
+            android:text="@string/pa"
+            android:textColor="#636363"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:id="@+id/home_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true"
+        android:layout_marginTop="120dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kn_img1"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tg_img1"
+                app:shapeAppearanceOverlay="@style/roundimageview2" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kn_img2"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kn_img2"
+                app:shapeAppearanceOverlay="@style/roundimageview2" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kn_img3"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kn_img3"
+                app:shapeAppearanceOverlay="@style/roundimageview2" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/travel_trib"
+        android:layout_width="223dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="420dp"
+        android:gravity="top"
+        android:text="@string/travel_trib"
+        android:textAppearance="@style/travel_trib"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kn_ll"
+        android:layout_marginTop="340dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:gravity="top"
+                android:text="@string/kn_1"
+                android:textAppearance="@style/kn_1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:text="@string/kn_2"
+                android:textAppearance="@style/kn_2"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:text="@string/kn_3"
+                android:textAppearance="@style/kn_2"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:text="@string/kn_4"
+                android:textAppearance="@style/kn_3"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
